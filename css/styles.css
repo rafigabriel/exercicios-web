@@ -1,0 +1,67 @@
+html {
+    color: rgb(77, 6, 6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+}
+
+.container{
+    background-color:cadetblue;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento{
+    width: 120% ;
+    height: 120% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+}
+
+.JavaScript{
+    max-width: 150%;
+    max-height: 150%;
+    margin: 10px;
+}
+
+.Python{
+    max-width: 150%;
+    max-height: 150%;
+    margin: 10px;
+}
+
+.Hardware{
+    max-width: 150%;
+    max-height: 150%;
+    margin: 10px;
+}
+
+.HTML{
+    max-width: 150%;
+    max-height: 150%;
+    margin: 10px;
+}
+
+.voltar img{      
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 50px;
+   
+}
+
+.completo{
+    width: -120%;
+    height: -120%;
+    margin-top: -100px;
+}
